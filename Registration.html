@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registration.css">   
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="wrapper" ></div >
+    <div class="form-container"></div>
+   <h1 align="center">User Registration Form </h1>
+   <form action="register.php" name="reg-form" method="post" form="outer">
+    
+    <table align="center" cellspacing="20"
+    bgcolor="aqua" fontfamily=""width="500">
+    
+    <tr>
+        <td><label for="username" class="inp2">Username</label></td>
+        <td>
+            <input id="username" name="username" type="text" required>
+        </td>
+    </tr>
+    
+
+    <tr>
+        <td><label for="pass" class="inp2">Password:</label></td>
+        <td>
+            <input id="password1" name="password1" type="text" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="f-name" class="inp2">Full Name:</label></td>
+        <td>
+            <input id="f-name" name="f-name" type="text" required>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="add">Address:</label></td>
+        <td>
+            <textarea id="add" name="add" cols="30" rows="10" placeholder="enter your address here__">
+                </textarea>
+        </td>
+    </tr> 
+    <tr>
+        <td><label for="email">Email:</label></td>
+        <td>
+            <input id="email" name="email" type="email" required>
+        </td>
+    </tr>
+    <tr>
+    <td><label for="gender">Gender:</label></td>
+        <td>
+            <input id="gender" name="gender" type="radio" value="male">male
+            <input type="radio" id="gender" name="gender" value="female">female
+        </td>
+    </tr>
+    <tr>
+    <td><label for="dob">Date Of Birth:</label></td>
+        <td>
+            <input id="dob" name="dob" type="date" required>
+        </td>
+    </tr>
+    <tr>
+    <td><label for="city">City:</label></td>
+        <td>
+            <input id="city" name="city" type="text" required> 
+            
+        </td>
+    </tr>
+    <td><label for="age">Age:</label></td>
+        <td>
+            <input id="age" name="age" type="number" required>
+        </td>
+    </tr>
+    <tr>
+    <td><input type="submit" id="save" name="save"</td>
+        <td><input type="Reset" id="clear" name="clear"</td>
+    </tr>
+</table>
+   </form>
+</body>
+</html>

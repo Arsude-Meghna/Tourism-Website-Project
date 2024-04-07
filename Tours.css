@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color:whitesmoke;
+    height: 70px;
+    color:purple;
+    text-align: center;
+    
+}
+
+.navmenu a:hover{
+    color: orangered;
+}
+.navmenu a{
+    transition: all ease 0.3s;
+}
+.header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+nav{
+    background-color:white;
+    height: 50px;
+    color: purple;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+}
+/*Main*/
+.main{
+    
+    
+    overflow: hidden;
+}
+.Tours{
+
+
+
+}
+.India{
+    
+    
+}
+.India h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+    font-size:1.5rem ;
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.package{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius:4%;
+    margin-left: 48px;
+    margin-bottom: 20px;
+}
+.img{
+    height: 180px;
+    background-size: cover;
+    border-radius: 4% 4% 0 0;
+}
+
+
+.package li{
+    list-style: none;
+}
+.package li a {
+    text-decoration: none;
+}
+.package:hover{
+    border: 2px solid orangered;
+}
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 7px;
+}
+.Price{
+    display: flex;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*.package li{
+    list-style: none;
+}
+.img{
+    height: 180px;
+    background-image: url("MP.avif");
+    background-size:cover;
+    border-radius: 4% 4% 0 0;    
+}
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+.price{
+    display: flex;
+    margin-left: 10px;
+}
+.content p{
+    margin-left: 5px;
+}
+.Days p{
+    margin-left:45px ;
+}*/
